@@ -1,4 +1,6 @@
 ## Notes
+
+### Basic Props
 - name: string
 - messageCount: number
 - isLoggedIn: boolean
@@ -8,5 +10,5 @@
     last: string
   }[]
 
-For array, we can use:
+For array, we can use: <br>
 a: string[], a: number[], a: boolean[], etc.
