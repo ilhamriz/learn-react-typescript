@@ -1,30 +1,14 @@
 import "./App.css";
 import Greet from "./components/Greet";
-import Person from "./components/Person";
-import PersonList from "./components/PersonList";
+import Oscar from "./components/Oscar";
 
 function App() {
-  const personName = {
-    first: "Ilham",
-    last: "Rizky"
-  };
-
-  const personList = [
-    {
-      first: "Ilham",
-      last: "Rizky"
-    },
-    {
-      first: "Dina",
-      last: "Mulyana"
-    },
-  ]
-
   return (
     <div className="App">
-      <Greet name="Mario" messageCount={20} isLoggedIn={true} />
-      <Person name={personName} />
-      <PersonList names={personList} />
+      <Oscar>
+        <h2>Oscar goes to Ilham Rizky!</h2>
+      </Oscar>
+      <Greet name="Ilham" isLoggedIn={true} />
     </div>
   );
 }
