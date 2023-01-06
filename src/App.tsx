@@ -1,14 +1,18 @@
 import "./App.css";
-import Greet from "./components/Greet";
-import Oscar from "./components/Oscar";
+import Button from "./components/Button";
+import Input from "./components/Input";
 
 function App() {
   return (
     <div className="App">
-      <Oscar>
-        <h2>Oscar goes to Ilham Rizky!</h2>
-      </Oscar>
-      <Greet name="Ilham" isLoggedIn={true} />
+      <Button
+        handleClick={(event, id) => {
+          console.log("hello", event, id);
+        }}
+        styles={{ padding: "8px 20px", border: "none" }}
+      />
+
+      <Input value="input" handleChange={(event) => console.log(event)} />
     </div>
   );
 }
