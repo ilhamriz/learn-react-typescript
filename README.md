@@ -1,6 +1,7 @@
 ## Notes
 
-### useReducer Hook
+### useContext
 
-The useReducer Hook is similar to the useState Hook.<br>
-The `reducer` function contains your custom state logic and the `initialState` can be a simple value but generally will contain an object.
+Context is a way to manage state globally.
+
+It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone.
