@@ -1,19 +1,11 @@
 import "./App.css";
-import Box from "./components/context/Box";
-import { ThemeContextProvider } from "./components/context/ThemeContext";
-import User from "./components/context/User";
-import { UserContextProvider } from "./components/context/UserContext";
+import Private from "./components/auth/Private";
+import Profile from "./components/auth/Profile";
 
 function App() {
   return (
     <div className="App">
-      <ThemeContextProvider>
-        <Box />
-      </ThemeContextProvider>
-
-      <UserContextProvider>
-        <User />
-      </UserContextProvider>
+      <Private isLoggedIn={true} component={Profile} />
     </div>
   );
 }

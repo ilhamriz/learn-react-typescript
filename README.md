@@ -1,3 +1,5 @@
 ## Notes
 
-### useRef
+### Component Props
+
+`component: ComponentType<ProfileProps>`
