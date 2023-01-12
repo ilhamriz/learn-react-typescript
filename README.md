@@ -1,3 +1,3 @@
 ## Notes
 
-### Restricting Props
+### Template Literals and Exclude
