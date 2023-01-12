@@ -1,5 +1,4 @@
 ## Notes
 
-### Component Props
-
-`component: ComponentType<ProfileProps>`
+### Generic Props
+Harus dipelajari lagi lebih dalam
