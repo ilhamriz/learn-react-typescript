@@ -1,14 +1,12 @@
 import "./App.css";
-import Button from "./components/html/Button";
-// import Toast from "./components/templateLiterals/Toast";
+import Text from "./components/polymorphic/Text";
 
 function App() {
   return (
     <div className="App">
-      {/* <Toast position="center" /> */}
-      <Button variant="primary" onClick={() => console.log("Clicked")}>
-        Submit
-      </Button>
+      <Text as="h1" size="lg">Heading</Text>
+      <Text as="p" size="md">Paragraf</Text>
+      <Text as="label" htmlFor="someId" size="sm" color="secondary">Label</Text>
     </div>
   );
 }

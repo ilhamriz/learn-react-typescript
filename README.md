@@ -1,9 +1,5 @@
 ## Notes
 
-### Wrapping HTML Elements
+### Polymorphic Components
 
-use `ComponentProps` so we can easily use `children` and `{...rest}`<br>
-Example: `ComponentProps<"button">`<br><br>
-
-when we want to strict the type of children, we can use `Omit<>`<br>
-Example: `Omit<ComponentProps<"button">, "children">`
+membuat sebuah Component yang elemennya bisa berubah-ubah atau dinamis
